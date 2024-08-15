@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="TB_UB_ROME_BASILICA" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="TB_UB_ROME_BASILICA" ReplacesBuildingType="BUILDING_TEMPLE"/>
+	</BuildingReplaces>
+
+	<Buildings>
+		<Row BuildingType="TB_UB_ROME_BASILICA" 
+			 Name="LOC_TB_UB_ROME_BASILICA_NAME" 
+			 Description="LOC_TB_UB_ROME_BASILICA_DESCRIPTION" 
+			 PrereqCivic="CIVIC_THEOLOGY" 
+			 PrereqDistrict="DISTRICT_HOLY_SITE" 
+			 PurchaseYield="YIELD_GOLD" 
+			 Cost="120" 
+			 AdvisorType="ADVISOR_RELIGIOUS" 
+			 Maintenance="2" 
+			 CitizenSlots="1" 
+			 TraitType="TRAIT_CIVILIZATION_TB_UB_ROME_BASILICA"
+		 />
+	</Buildings>
+
+	<BuildingPrereqs>
+		<Row Building="TB_UB_ROME_BASILICA" PrereqBuilding="BUILDING_SHRINE"/>
+	</BuildingPrereqs>
+
+	<Building_YieldChanges>
+		<Row BuildingType="TB_UB_ROME_BASILICA" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="TB_UB_ROME_BASILICA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="TB_UB_ROME_BASILICA" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="TB_UB_ROME_BASILICA" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="TB_UB_ROME_BASILICA" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row BuildingType="TB_UB_ROME_BASILICA" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="TB_UB_ROME_BASILICA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="2"/>
+	</Building_GreatWorks>
+
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="TB_UB_ROME_BASILICA"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="TB_UB_ROME_BASILICA"/>
+		<Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="TB_UB_ROME_BASILICA"/>
+		<Row Unit="UNIT_GURU" PrereqBuilding="TB_UB_ROME_BASILICA"/>
+	</Unit_BuildingPrereqs>
+</GameInfo>

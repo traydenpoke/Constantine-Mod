@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Scrinn -->
+<!-- DateCreated: 8/2/2017 4:00:00 AM -->
+<!--All units and their relevant modifiers are defined here.-->
+<GameData>
+	<Types>
+		<Row Type="TB_UU_ROME_COMITATENSES" Kind="KIND_UNIT"/>
+	</Types>
+	
+	<UnitAiInfos>
+		<Row UnitType="TB_UU_ROME_COMITATENSES" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="TB_UU_ROME_COMITATENSES" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="TB_UU_ROME_COMITATENSES" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	
+	<UnitReplaces>
+		<Row CivUniqueUnitType="TB_UU_ROME_COMITATENSES" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+	
+	<TypeTags>
+		<Row Type="TB_UU_ROME_COMITATENSES" Tag="CLASS_MELEE"/>
+	</TypeTags>
+	
+	<Units>
+		<Row UnitType="TB_UU_ROME_COMITATENSES" 
+			 Cost="90" 
+			 Maintenance="2" 
+			 BaseMoves="2" 
+			 BaseSightRange="2" 
+			 ZoneOfControl="false" 
+			 Domain="DOMAIN_LAND" 
+			 Combat="40" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			 PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_TB_UU_ROME_COMITATENSES_NAME" 
+			 Description="LOC_TB_UU_ROME_COMITATENSES_DESCRIPTION" 
+			 TraitType="TRAIT_CIVILIZATION_TB_UU_ROME_COMITATENSES" 
+			 PurchaseYield="YIELD_GOLD" 
+			 MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" 
+			 PrereqTech="TECH_IRON_WORKING"
+			 StrategicResource="RESOURCE_IRON"/>
+	</Units>
+
+	<Units_XP2>
+		<Row UnitType="TB_UU_ROME_COMITATENSES" ResourceCost="10"/>
+	</Units_XP2>
+	
+	<UnitUpgrades>
+		<Row Unit="TB_UU_ROME_COMITATENSES" UpgradeUnit="UNIT_MAN_AT_ARMS"/>
+	</UnitUpgrades>
+	
+</GameData>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<!--CIVILIZATION-->
+		<Row Tag="LOC_CIVILIZATION_TB_ROME_NAME" Language="en_US">
+			<Text>Rome</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TB_ROME_DESCRIPTION" Language="en_US">
+			<Text>Roman Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TB_ROME_ADJECTIVE" Language="en_US">
+			<Text>Be very epic as Rome.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TB_ROME_DESCRIPTION_TB_ROMEILIZATION" Language="en_US">
+			<Text>Rome ruled by Emperor Constantine I</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="LOC_CIVINFO_TB_ROME_LOCATION" Language="en_US">
+			<Text>Rome</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_TB_ROME_POPULATION" Language="en_US">
+			<Text>60+ Million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_TB_ROME_SIZE" Language="en_US">
+			<Text>4.4+ Million SQKM</Text>	
+		</Row>
+		<Row Tag="LOC_CIVINFO_TB_ROME_CAPITAL" Language="en_US">
+			<Text>Rome</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_ROME_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_ROME_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_ROME_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_ROME_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TB_ROME_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		
+		
+		<!--Cities-->
+		<Row Tag="LOC_CITY_NAME_TB_ROME_1" Language="en_US">
+			<Text>Rome</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_2" Language="en_US">
+			<Text>Constantinople</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_3" Language="en_US">
+			<Text>Ostia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_4" Language="en_US">
+			<Text>Antium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_5" Language="en_US">
+			<Text>Cumae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_6" Language="en_US">
+			<Text>Aquileia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_7" Language="en_US">
+			<Text>Ravenna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_8" Language="en_US">
+			<Text>Puteoli</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_9" Language="en_US">
+			<Text>Arretium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_10" Language="en_US">
+			<Text>Mediolanum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_11" Language="en_US">
+			<Text>Lugdunum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_12" Language="en_US">
+			<Text>Arpinum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_13" Language="en_US">
+			<Text>Setia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_14" Language="en_US">
+			<Text>Velitrae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_15" Language="en_US">
+			<Text>Durocortorum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_16" Language="en_US">
+			<Text>Brundisium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_17" Language="en_US">
+			<Text>Caesaraugusta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_18" Language="en_US">
+			<Text>Palmyra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_19" Language="en_US">
+			<Text>Hispalis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_20" Language="en_US">
+			<Text>Caesarea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_21" Language="en_US">
+			<Text>Artaxata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_22" Language="en_US">
+			<Text>Paphos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_23" Language="en_US">
+			<Text>Salonae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_24" Language="en_US">
+			<Text>Eburacum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_25" Language="en_US">
+			<Text>Lauriacum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_26" Language="en_US">
+			<Text>Verona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_27" Language="en_US">
+			<Text>Colonia Agrippina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_28" Language="en_US">
+			<Text>Narbo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_29" Language="en_US">
+			<Text>Tingi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TB_ROME_30" Language="en_US">
+			<Text>Sarmizegetusa</Text>
+		</Row>
+		
+		
+		
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_1" Language="en_US">
+			<Text>Acacius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_2" Language="en_US">
+			<Text>Aetius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_3" Language="en_US">
+			<Text>Brutus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_4" Language="en_US">
+			<Text>Caelinus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_5" Language="en_US">
+			<Text>Emidius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_6" Language="en_US">
+			<Text>Flavius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_7" Language="en_US">
+			<Text>Jovilius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_8" Language="en_US">
+			<Text>Manius</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_9" Language="en_US">
+			<Text>Sophus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MALE_10" Language="en_US">
+			<Text>Timaeus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_1" Language="en_US">
+			<Text>Adolfo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_2" Language="en_US">
+			<Text>Benito</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_3" Language="en_US">
+			<Text>Dario</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_4" Language="en_US">
+			<Text>Elmo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_5" Language="en_US">
+			<Text>Federico</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_6" Language="en_US">
+			<Text>Guido</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_7" Language="en_US">
+			<Text>Marzio</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_8" Language="en_US">
+			<Text>Pasqualino</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_9" Language="en_US">
+			<Text>Remo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_MALE_10" Language="en_US">
+			<Text>Umberto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_1" Language="en_US">
+			<Text>Abelia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_2" Language="en_US">
+			<Text>Chloris</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_3" Language="en_US">
+			<Text>Clotho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_4" Language="en_US">
+			<Text>Eliana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_5" Language="en_US">
+			<Text>Gracilia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_6" Language="en_US">
+			<Text>Herta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_7" Language="en_US">
+			<Text>Isidora</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_8" Language="en_US">
+			<Text>Laetitia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_9" Language="en_US">
+			<Text>Melita</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_FEMALE_10" Language="en_US">
+			<Text>Proserpina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_1" Language="en_US">
+			<Text>Bambi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_2" Language="en_US">
+			<Text>Bella</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_3" Language="en_US">
+			<Text>Caprice</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_4" Language="en_US">
+			<Text>Donatella</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_5" Language="en_US">
+			<Text>Francesca</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_6" Language="en_US">
+			<Text>Laurenza</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_7" Language="en_US">
+			<Text>Lucrezia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_8" Language="en_US">
+			<Text>Ortensia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_9" Language="en_US">
+			<Text>Sabrina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_TB_ROME_MODERN_FEMALE_10" Language="en_US">
+			<Text>Vitalia</Text>
+		</Row>
+		
+		
+		
+		<!--LEADER-->
+		<Row Tag="LOC_TB_LEADER_CONSTANTINE" Language="en_US">
+			<Text>Constantine I</Text>
+		</Row>
+
+		
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_TB_LEADER_CONSTANTINE" Language="en_US">
+			<Text>With Free minds all are to worship their Gods.</Text>
+		</Row>
+		
+		
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_TITLE" Language="en_US">
+			<Text>Emperor Constantine I</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_SUBTITLE" Language="en_US">
+			<Text>Emperor</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_QUOTE" Language="en_US">
+			<Text>How pleasing to the wise and intelligent portion of mankind is the concord which exists among you!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_TB_LEADER_CONSTANTINE_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>WIP</Text>
+		</Row>
+		
+		
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Hello there!</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Do you want to visit Rome?</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Let me come and have a look, perhaps spread a little Christianity...</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Let's exchange information!</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Need help with anything?</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Thank you for your money, have a nice day.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>We are closed.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>We have delivered a shipment for you.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>We will accept this contract.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Your contract does not interest us. </Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>We propose a contract.</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Closer relations is in our best interest at this time.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Closer relations is not in our interests.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>I propose closer relations. What say you?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Glad that you agree.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>You wouldn't have helped us anyways.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>I propose an alliance.</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Our interest are similar. Good.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Your interest are conflicting with ours. Be careful.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>You have too many armed associates on our borders. What's the meaning of this?</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_TB_LEADER_CONSTANTINE_ANY}</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_TB_LEADER_CONSTANTINE_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>That was a mistake. The waters ahead aren't calm.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Your interest are too far from our own and we will not stand for it! (Denounces You)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Our interests conflict. Time to add you to the monopoly!</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>Our interests conflict. Time to add you to the monopoly!</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>This suits our interests.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>We refuse your peace contract!</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>We ask for a peace contract.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>You cheated... you must have... you damn Catholic!</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_TB_LEADER_CONSTANTINE_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_TB_LEADER_CONSTANTINE_ANY]</Text>
+		</Row>
+
+
+
+
+		
+		
+		
+		
+		
+		
+
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_TB_LEADER_CONSTANTINE_LTRAIT_NAME" Language="en_US">
+			<Text>The Grand Pagan</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_TB_LEADER_CONSTANTINE_LTRAIT_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_culture] per foreign city following Rome's Religion.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TB_ROME_TRAIT_NAME" Language="en_US">
+			<Text>Catechumen of Virtue</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_TB_ROME_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>+1000% Religious pressure from Roman [ICON_TradeRoute] Trade Routes. Meeting another civilization grants +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Row>
+
+		<Row Tag="LOC_TB_UD_ROME_IMPERIAL_MINT_NAME" Language="en_US">
+			<Text>Imperial Mint</Text>
+		</Row>
+		<Row Tag="LOC_TB_UD_ROME_IMPERIAL_MINT_DESCRIPTION" Language="en_US">
+			<Text>
+				A district unique to Rome for commercial and trade activity. Replaces the Commercial Hub district and is cheaper to build.[NEWLINE][NEWLINE][ICON_faith] Faith and [ICON_gold] Gold bonuses for adjacent district and river tiles.
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_TB_UB_ROME_BASILICA_NAME" Language="en_US">
+			<Text>St. Peter's Basilica</Text>
+		</Row>
+		<Row Tag="LOC_TB_UB_ROME_BASILICA_DESCRIPTION" Language="en_US">
+			<Text>
+				A building unique to Rome in the Holy Site district. Replaces the Temple building.[NEWLINE][NEWLINE]Provides extra [ICON_faith] Faith and [ICON_culture] Culture generation, as well as Great Work slots and culture-related Great Person points.
+			</Text>
+		</Row>
+		
+		<Row Tag="LOC_TB_UU_ROME_COMITATENSES_NAME" Language="en_US">
+			<Text>Comitatenses</Text>
+		</Row>
+		<Row Tag="LOC_TB_UU_ROME_COMITATENSES_DESCRIPTION" Language="en_US">
+			<Text>Roman unique Classical era unit, replaces the Swordsman. Melee unit with high combat strength and lower [ICON_production] Production cost.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

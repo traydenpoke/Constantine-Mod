@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Rome: Constantine I</Name>
+    <Guid>7476cf11-2c2e-4c0a-a79e-3bc08c583fd3</Guid>
+    <ProjectGuid>d75d015d-ab3f-46ef-8775-7b53427f2f5f</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Napoleon Bonaparte mod</Teaser>
+    <Description>Emperor Constantine I of Rome/Byzantine.</Description>
+    <Authors>traydenpoke</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Constantine</AssemblyName>
+    <RootNamespace>Constantine</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Template_Config.sql</File><File>Core/Template_Buildings.xml</File><File>Core/Template_Units.xml</File><File>Core/Template_Districts.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Template_Buildings.xml</File><File>Core/Template_Units.xml</File><File>Core/Template_GameDefines.sql</File><File>Core/Template_Districts.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Template_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Template_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="Core" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Appeal.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Camera.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cities.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\CityGenerators.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Clutter.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Eras.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Farms.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Features.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FOW.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GameLighting.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GenericObject.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GoodyHuts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GraphicsTweaks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\IconReferences.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Lenses.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\LodSettings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Minimap.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Overlay.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\README">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Resources.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Routes.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\SkyBox.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Terrains.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\TerrainStyle.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UIPreview.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UnitActivities.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UnitOperations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units_Great_People.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UserInterface.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\VFX.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Walls.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Water.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WaterMaterials.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Wave.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WonderMovie.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WorldViewRoutes.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Template_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Template_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Template_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Template_GameDefines.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Template_GameText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Template_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Template_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TB_CONSTANTINE.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_TB_CONSTANTINE.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_TB_CONSTANTINE.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_TB_CONSTANTINE.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_ROME_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_TB_CONSTANTINE_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TB_CONSTANTINE_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TB_CONSTANTINE_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TB_CONSTANTINE_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TB_CONSTANTINE_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderBackgrounds.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Leader_TB_CONSTANTINE.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

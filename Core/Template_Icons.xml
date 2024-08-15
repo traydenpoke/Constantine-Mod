@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+		
+		<Row Name="ICON_ATLAS_TB_CONSTANTINE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_CONSTANTINE_32.dds"/>
+		<Row Name="ICON_ATLAS_TB_CONSTANTINE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_CONSTANTINE_45.dds"/>
+		<Row Name="ICON_ATLAS_TB_CONSTANTINE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_CONSTANTINE_50.dds"/>
+		<Row Name="ICON_ATLAS_TB_CONSTANTINE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_CONSTANTINE_55.dds"/>
+		<Row Name="ICON_ATLAS_TB_CONSTANTINE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_CONSTANTINE_64.dds"/>
+		<Row Name="ICON_ATLAS_TB_CONSTANTINE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_CONSTANTINE_80.dds"/>
+		<Row Name="ICON_ATLAS_TB_CONSTANTINE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_CONSTANTINE_256.dds"/>
+
+		<!--CIV Icons-->
+
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_22.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_30.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_32.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_36.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_44.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_45.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_48.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_50.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_55.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_64.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_80.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_200.dds"/>
+		<Row Name="ICON_ATLAS_TB_ROME" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_TB_ROME_256.dds"/>
+
+
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--Leader Icons-->
+		<Row Name="ICON_TB_LEADER_CONSTANTINE" Atlas="ICON_ATLAS_TB_CONSTANTINE" Index="0"/>
+
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_TB_ROME" Atlas="ICON_ATLAS_TB_ROME" Index="0"/>
+
+
+		<!--Building Icons--> 
+		<Row Name="ICON_TB_UD_ROME_IMPERIAL_MINT" Atlas="ICON_ATLAS_DISTRICTS" Index="6"/>
+		<Row Name="ICON_TB_UB_ROME_BASILICA" Atlas="ICON_ATLAS_BUILDINGS" Index="14"/>
+		<Row Name="ICON_TB_UU_ROME_COMITATENSES" Atlas="ICON_ATLAS_UNITS" Index="37"/>
+
+	</IconDefinitions>
+</GameData>

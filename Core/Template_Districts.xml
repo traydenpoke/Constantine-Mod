@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="TB_UD_ROME_IMPERIAL_MINT" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="TB_UD_ROME_IMPERIAL_MINT" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+	</DistrictReplaces>
+
+	<Districts>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" 
+			 Name="LOC_TB_UD_ROME_IMPERIAL_MINT_NAME" 
+			 Description="LOC_TB_UD_ROME_IMPERIAL_MINT_DESCRIPTION" 
+			 PrereqTech="TECH_CURRENCY" 
+			 PlunderType="PLUNDER_GOLD" 
+			 PlunderAmount="50"  
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Cost="27" 
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			 CostProgressionParam1="40" 
+			 Maintenance="1" 
+			 RequiresPlacement="true" 
+			 RequiresPopulation="true" 
+			 Aqueduct="false" 
+			 NoAdjacentCity="false" 
+			 InternalOnly="false" 
+			 ZOC="false" 
+			 CaptureRemovesBuildings="false" 
+			 CaptureRemovesCityDefenses="false"
+			 MilitaryDomain="NO_DOMAIN" 
+			 Appeal="-1" 
+			 CityStrengthModifier="2" 
+			 TraitType="TRAIT_CIVILIZATION_TB_UD_ROME_IMPERIAL_MINT"/>
+	</Districts>
+
+	<District_Adjacencies>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldChangeId="District_Faith"/>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldChangeId="District_Gold"/>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldChangeId="River_Gold"/>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldChangeId="Holy_Site_Gold"/>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldChangeId="Lavra_Gold"/>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldChangeId="Government_Gold"/>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldChangeId="Government_Faith"/>
+	</District_Adjacencies>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+
+	<District_GreatPersonPoints>
+		<Row DistrictType="TB_UD_ROME_IMPERIAL_MINT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+
+	<Adjacency_YieldChanges>
+		<Row ID="District_Faith" Description="LOC_DISTRICT_DISTRICT_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
+		<Row ID="District_Gold" Description="LOC_DISTRICT_DISTRICT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
+		<Row ID="River_Gold" Description="LOC_DISTRICT_RIVER_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentRiver="true"/>
+		<Row ID="Holy_Site_Gold" Description="LOC_DISTRICT_HOLY_SITE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Lavra_Gold" Description="LOC_DISTRICT_LAVRA_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_LAVRA"/>
+		<Row ID="Government_Gold" Description="LOC_DISTRICT_GOVERNMENT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+		<Row ID="Government_Faith" Description="LOC_DISTRICT_GOVERNMENT_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+	</Adjacency_YieldChanges>
+</GameInfo>
